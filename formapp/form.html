@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Form</title>
+<style>
+    Body{
+        font-family:Calibri,Helvetica,sans-serif;
+        
+    }
+    button{
+        background-color: #f14f32;
+        width:100%;
+        color:rgb(39, 35, 27);
+        padding:15px;
+        margin:10px 0px;
+        border:none;
+        cursor:pointer;
+    }
+    form{
+        border:3px solid #e7f1f1;
+    }
+    input[type=text]{
+        width:100%;
+        margin:8px 0;
+        padding:12px 20px;
+        display:inline-block;
+        border:2px solid rgb(233, 229, 210);
+        box-sizing:border-box;
+    }
+    button.hover{
+        opacity:0.7;
+    }
+    .cancelbtn{
+        width:auto;
+        padding:10px 18px;
+        margin:10px 5px;
+    }
+    .container{
+        padding:25px;
+        align-items: center;
+    }
+    body{
+        background-image: url("bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+</head>
+<body>
+    <center> <h1> <font face="Castellar">Login Form </font></h1> </center>   <br><br>
+    <form>  
+        <div class="container">   
+            <label>Your Name: </label>   
+            <input type="text" placeholder="Enter Your Name" name="name" required>  
+            <label>Student Id: </label>   
+            <input type="text" placeholder="Enter Student Id" name="sid" required>  
+            <button type="submit"><font size=4 color=black face="Lucida Handwriting">Submit</font></button>   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+             
+        </div>   
+    </form>  
+</body>
+</html>
